@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+.container-imagem {
+  position: relative;
+  display: inline-block; /* Ajusta o tamanho do contêiner ao tamanho da imagem */
+}
+
+.imagem-jpg {
+  display: block;
+  max-width: 100%; /* Torna a imagem responsiva */
+  height: auto;
+}
+
+.imagem-png {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  /* Faz o PNG cobrir exatamente o tamanho do JPG */
+  height: 100%;
+  pointer-events: none; /* Permite clicar no JPG por trás do PNG se necessário */
+}
