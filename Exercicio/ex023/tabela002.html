@@ -13,7 +13,15 @@
         table{
             width: 500px;
             border-collapse: collapse;
-        }
+            position: relative;/* DEIXAR O TOPO FIXO*/
+        } 
+        
+        thead > tr > th {
+            position: sticky;
+            top:-1px;
+            background-color: gray;
+        }/* DEIXAR O TOPO FIXO*/
+
 
         caption{
             font-size: 1.5em;
@@ -35,10 +43,20 @@
             padding: 10px;
             text-align: center;
         }
+        
+        tbody > tr:nth-child(even) {
+            background-color: rgb(79, 69, 69);
+            color: white;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(185, 177, 177);/* EFEITO ZEBRADO odd(IMPAR) ou 2n-1 even(PAR) ou 2n*/
+        }
 
         td.num{
             text-align: right;
         }
+       
     </style>
 </head>
 <body>
@@ -210,5 +228,17 @@
         </tfoot>
     </table>
     <a href="tabela001.html" target="_self" style="display: inline-block; margin-top: 30px;">Voltar</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod ullam reprehenderit totam cumque odit praesentium accusantium, repellat quam ratione harum, illo dicta commodi tempore nulla, nesciunt magni aliquid aliquam.</p>
 </body>
 </html>
