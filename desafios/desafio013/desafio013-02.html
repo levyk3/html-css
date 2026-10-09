@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 014</title>
+    <style>
+        /* PARA FICAR CENTRALIZADO */
+        body{
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        table{
+            background-color: azure;
+            border-collapse: collapse;
+            width: 300px;
+            height: 300px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .cabeça{
+            background-color: black;
+            color:whitesmoke;
+            border: 2px solid white;
+        }
+
+    </style>
+</head>
+<body>
+     <!--PARA A TABELA PODER FUNCINAR IGUAL NO EXERCÍCIO-->
+    <table>
+        <tr>
+            <td class="cabeça">A</td>
+            <td class="cabeça">B</td>
+            <td class="cabeça">C</td>
+            <td class="cabeça">D</td>
+            <td class="cabeça">E</td>
+        </tr>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <TD>F</TD>
+            
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>G</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+    </table>
+</body>
+</html>
