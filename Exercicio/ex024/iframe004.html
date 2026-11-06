@@ -5,35 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de Iframe</title>
     <style>
+        main{
+            max-width: 900px;
+            min-width: 400px;
+            padding: 20px;
+            /* configuração que centraliza */
+            margin: auto;
+            background-image: url(imagens/super-saiyan-3-goku-fusion-reborn-v0-vaerghr5pjje1.webp);
+            background-repeat: no-repeat;
+            background-size: 900px;
+            background-position: top center;
+            background-attachment: fixed;
+
+        }
         body{
+            
+            background-color: rgb(152, 149, 146);
             font-family: Arial, Helvetica, sans-serif;
+
     
         }
         iframe#tela{
-            width: 95vw;
+            background-color: rgba(255, 255, 255, 0.648);
+            width: 100%;
             height:420px ;
             border: 1px solid black;
+            border-radius: 20px;
+    
         }
     </style>
 </head>
 <body>
-    <h1>Faça uma escoha</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores pariatur vitae, voluptas quos alias aliquam quasi tenetur soluta rem dignissimos quae, non, amet accusantium et! In iusto inventore error? Quas.
-    </p>
-    <ul>
-        <li><a href="pagians-extras/pag001.html" target="frame">Primeira Página</a></li>
-        <li><a href="pagians-extras/pag002.html" target="frame">Segunda Página</a></li>
-        <li><a href="pagians-extras/pag003.html" target="frame">Terceira Página</a></li>
-    </ul>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur animi enim, obcaecati iure quas illo quibusdam quod quasi exercitationem laudantium ipsam nobis quis quam sed saepe perspiciatis iste doloremque sint?
-    </p>
-    <iframe id="tela" name="frame" srcdoc=" <h1> ESCOLHA UMA OPÇÃO ACIMA</h1><p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus commodi, itaque doloremque excepturi ea est sit nemo quasi sint! Tempora accusamus quibusdam, laudantium molestiae delectus velit facere itaque commodi similique!</em></p><img src='imagens/cursoemvideo.png'>">
-        <p>Infelizmente seu navegador não é compatível</p>
-    </iframe>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum non delectus distinctio rem hic, assumenda voluptates deserunt sit? Ex explicabo iure excepturi ab, cum sequi debitis dolores provident deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas non ex, vel beatae ducimus, asperiores veritatis necessitatibus autem error cupiditate distinctio provident unde accusamus expedita mollitia fugit nulla quod?
-    </p>
+    <main>
+        <h1>Faça uma escoha</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores pariatur vitae, voluptas quos alias aliquam quasi tenetur soluta rem dignissimos quae, non, amet accusantium et! In iusto inventore error? Quas.
+        </p>
+        <ul>
+            <li><a href="pagians-extras/pag001.html" target="frame">Primeira Página</a></li>
+            <li><a href="pagians-extras/pag002.html" target="frame">Segunda Página</a></li>
+            <li><a href="pagians-extras/pag003.html" target="frame">Terceira Página</a></li>
+        </ul>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur animi enim, obcaecati iure quas illo quibusdam quod quasi exercitationem laudantium ipsam nobis quis quam sed saepe perspiciatis iste doloremque sint?
+        </p>
+        <iframe id="tela" name="frame" srcdoc=" <h1> ESCOLHA UMA OPÇÃO ACIMA</h1><p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus commodi, itaque doloremque excepturi ea est sit nemo quasi sint! Tempora accusamus quibusdam, laudantium molestiae delectus velit facere itaque commodi similique!</em></p><img src='imagens/cursoemvideo.png'>">
+            <p>Infelizmente seu navegador não é compatível</p>
+        </iframe>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum non delectus distinctio rem hic, assumenda voluptates deserunt sit? Ex explicabo iure excepturi ab, cum sequi debitis dolores provident deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas non ex, vel beatae ducimus, asperiores veritatis necessitatibus autem error cupiditate distinctio provident unde accusamus expedita mollitia fugit nulla quod?
+        </p>
+    </main>
 </body>
 </html>
